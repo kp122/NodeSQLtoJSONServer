@@ -10,7 +10,7 @@
   "author": "KP",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
 	"sqlite-sync": "0.3.7"
   }
 }
