@@ -61,4 +61,4 @@ app.get('/summer', function (req, res) {
 
   
 
-app.listen(server_port,server_ip_address, () => console.log('Example app listening on port '+ server_port+ ' ip ' + server_ip_address));
+app.listen(server_port,server_ip_address, () => console.log('Exampled app listening on port '+ server_port+ ' ip ' + server_ip_address + " d " + GetData1()));
