@@ -44,7 +44,7 @@ app.use(function (req, res, next) {
     });
 
 
-app.get('/', (req, res) => res.send('Hello World!!'));
+app.get('/', (req, res) => res.send('Hello World!! Waz up!'));
 
 app.get('/winter', function (req, res) {
 
