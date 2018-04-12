@@ -40,7 +40,7 @@ app.use(function (req, res, next) {
     });
 
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('Hello World!!'));
 
 app.get('/winter', function (req, res) {
 
@@ -49,7 +49,7 @@ app.get('/winter', function (req, res) {
     console.log("After");
 
     res.send(JSON.stringify(x) );
-    //res.send(JSON.stringify({"name": "y"}));
+    
   });
 
 app.get('/summer', function (req, res) {
